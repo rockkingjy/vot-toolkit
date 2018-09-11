@@ -33,7 +33,7 @@ if ~isempty(sequence.tags.names)
 
     subplot(2,1,2);
     hold on;
-    generate_timeline(names, starts, ends);
+    %generate_timeline(names, starts, ends);
     set(gca,'xlim',[0 sequence.length]);
     slider = line([1 1], [0 numel(names)+1], 'LineWidth', 3, 'Color', [0 0 0 ]);
     hold off;

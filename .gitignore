@@ -8,9 +8,9 @@ tracker/examples/native/static_c
 tracker/examples/native/static_cpp
 configuration.m
 /tracker_*.m
-run_analysis.m
-run_browse.m
-run_experiments.m
-run_test.m
+workspace/logs/
+workspace/reports/
+workspace/results/
+workspace/archives/
 testing/
 *.pyc
