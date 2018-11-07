@@ -4,7 +4,7 @@ addpath('/media/elab/sdd/mycodes/tracker/vot-toolkit'); toolkit_path; % Make sur
 
 [sequences, experiments] = workspace_load();
 
-trackers = tracker_load('ECOCPP');
+trackers = tracker_load('ECOCPPHOG_NOSIMD');
 
 workspace_browse(trackers, sequences, experiments);
 
