@@ -1,13 +1,11 @@
 *~
 /native/
 cache/
-sequences/
 tracker/examples/native/build
 tracker/examples/native/ncc
 tracker/examples/native/static_c
 tracker/examples/native/static_cpp
-configuration.m
-/tracker_*.m
+workspace/sequences/
 workspace/logs/
 workspace/reports/
 workspace/results/
