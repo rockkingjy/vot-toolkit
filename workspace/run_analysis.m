@@ -10,6 +10,6 @@ addpath('/media/elab/sdd/mycodes/tracker/vot-toolkit'); toolkit_path; % Make sur
 
 %trackers = order_trackers(tracker_list('trackers.txt'));
 
-trackers = tracker_list('ECOCPPHOG', 'ECOCPPHOG_NOSIMD');%'ECOMATLABDEEP', 'ECOHCMATLAB', 'ECOCPPHOGCN', 'ECOHCMATLABHOGCN', 'KCFCPP', 'ECOCPPHOG', 'ECOCPPHOG_NOSIMD','ECOHCMATLABHOG', 'NCC'); 
+trackers = tracker_list('ECOMATLABDEEP', 'ECOHCMATLAB', 'ECOCPPHOGCN', 'ECOHCMATLABHOGCN', 'KCFCPP', 'ECOCPPHOG','ECOHCMATLABHOG', 'NCC'); 
 workspace_analyze(trackers, sequences, experiments, 'report_ECOCPP', 'Title', 'Report for vot2018');
 
